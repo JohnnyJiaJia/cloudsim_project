@@ -8,6 +8,7 @@ Run: cd blabla
 
 Linux:
 javac -classpath jars/cloudsim-4.0.jar:. Project.java
+
 Windows:
 javac -classpath jars\\cloudsim-4.0.jar;. Project.java
 
@@ -18,8 +19,9 @@ This file is already present in the upload because I compiled it earlier. You do
 
 Linux:
 java -classpath jars/cloudsim-4.0.jar:. Project > logs.txt
+
 Windows:
-java -classpath jars\\cloudsim-4.0.jar;. Project
+java -classpath jars\\cloudsim-4.0.jar;. Project >logs.txt
 
 (The output of the program is very large and I redirect it to logs.txt)
 
